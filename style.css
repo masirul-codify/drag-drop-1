@@ -1,0 +1,49 @@
+
+h1 {
+    color: #323330;
+}
+
+.container {
+    height: 100vh;
+    margin: 20px;
+
+}
+
+.drop-targets {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    margin: 20px 0;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    border: solid 3px #ccc;
+    margin: 10px;
+
+    /* align items in the box */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.drag-over {
+    border: dashed 3px rgb(0, 191, 255);
+}
+
+.item {
+    height: 75px;
+    width: 75px;
+    background-color: #4ff07a;
+
+}
+
+.hide {
+    display: none;
+}
